@@ -11,7 +11,7 @@ namespace QRedirection.Controllers
         {
             string userAgent = Request.Headers["User-Agent"].ToString();
             string keitoeHealthAppleUrl = "https://apps.apple.com/es/app/keito-ehealth/id1546250400";
-            string keitoeHealthGooglePlayUrl = "https://play.google.com/store/apps/details?id=com.keito.ehealth.app";
+            string keitoeHealthGooglePlayUrl = "https://play.google.com/store/apps/details?id=com.keitoehealth.app";
 
             // Verificar si el User-Agent corresponde a un dispositivo Apple
             bool isAppleDevice = userAgent.Contains("Macintosh") || userAgent.Contains("iPhone") || userAgent.Contains("iPad") || userAgent.Contains("iPod");
